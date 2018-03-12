@@ -89,7 +89,8 @@ public class UserEventListener {
         senderImpl.setHost("smtp.163.com");
         senderImpl.setPort(465);
         senderImpl.setUsername("dominant_wangcheng@163.com");
-        senderImpl.setPassword("wang123456");
+        //密码
+        senderImpl.setPassword("*");
         senderImpl.setDefaultEncoding("UTF-8");
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", true);
