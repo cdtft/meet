@@ -112,8 +112,7 @@ public class UserEventListener {
             senderImpl.send(mimeMessage);
             logger.info("向[{}] 邮件发送成功！", receiver);
         } catch (Exception e) {
-            e.printStackTrace();
-            logger.error("邮件发送失败！");
+            logger.error("邮件发送失败！", e);
         }
     }
 
