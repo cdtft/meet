@@ -2,6 +2,7 @@ package com.cdut.entity.user;
 
 import com.cdut.entity.common.BaseEntity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -16,6 +17,7 @@ public class UserInfo extends BaseEntity{
 
     private Long userId;
 
+    @Column(columnDefinition = "text")
     private String info;
 
     private String cnName;
