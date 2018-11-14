@@ -3,7 +3,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: p@sSw0rd
+    password: p@sSw0rd*
     url: jdbc:mysql://127.0.0.1:2048/meet?characterEncoding=utf-8
     dbcp2:
       initial-size: 5
