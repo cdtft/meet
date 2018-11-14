@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
+    username: king
     password: king
     url: jdbc:mysql://127.0.0.1:3306/meet?characterEncoding=utf-8
     dbcp2:
